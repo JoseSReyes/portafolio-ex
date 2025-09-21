@@ -6,9 +6,36 @@
 }
 
 body {
+    /* height: 100vh; */
     background-color: #000000;
     color: #F6F6F6;
     box-sizing: border-box;
+}
+
+.header {
+    padding: 2% 0% 0% 15%;
+    
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.header__menu__link {
+    font-size: 24px;
+    color: #22D4FD;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.header__menu__link:hover {
+    color: #007BFF;
 }
 
 .titulo-destaque{
@@ -18,7 +45,7 @@ body {
 .presentation { 
     display: flex;
     align-items: center;
-    margin: 10% 5%;
+    padding: 6% 15%;
     justify-content: space-between;
 }
 
