@@ -5,11 +5,17 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Portafolio</title>
-     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-     <header></header>
+     <header class="header">
+          <nav class="header__menu">
+               <a href="index.html" class="header__menu__link">Home</a>
+               <a href="about.html" class="header__menu__link">Sobre mi</a>
+               <a href="curriculum.html" class="header__menu__link">Curriculum</a>
+          </nav>
+     </header>
 
      <main class="presentation">
           <section class="presentation__content">
@@ -23,14 +29,21 @@
                     ¿Hablamos?
                </p>
                <div class="presentation__links">
-                    <a class="presentation__links__link" href="https://instagram.com/">Instagram</a>
-                    <a class="presentation__links__link" href="https://github.com/">Github</a>
+                    <h2 class="presentation__links__subtitle">Accede a mis redes:</h2>
+                    <a class="presentation__links__link" href="https://instagram.com/">
+                         <img src="./assets/instagram.png" alt="instagram icon">Instagram</a>
+                    <a class="presentation__links__link" href="https://github.com/">
+                         <img src="./assets/github.png" alt="github icon">Github</a>
+                    <a class="presentation__links__link" href="https://linkedin.com/in">
+                         <img src="./assets/linkedin.png" alt="linkedin icon">Linkedin</a>
                </div>
           </section>
           <img src="./assets/imagen.jpg" alt="Foto de Ana Garcìa desarrollando un proyecto">
      </main>
 
-     <footer></footer>
+     <footer class="footer">
+          <p>Desarrollado por JSR</p>
+     </footer>
 </body>
 
 </html>
