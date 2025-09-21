@@ -34,7 +34,7 @@ body {
 }
 
 .header__menu__link {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--third-color);
     /* margin: 0 10px;
     padding: 10px 15px;*/
@@ -62,7 +62,7 @@ body {
 }
 
 .presentation__content__title {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-krona-one);
 }
 
@@ -72,7 +72,7 @@ body {
 
 .presentation__content__text {
     font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .presentation__content__text a{
@@ -89,7 +89,7 @@ body {
 }
 .presentation__links__subtitle {
     font-family: var(--font-krona-one);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .presentation__links__link {
@@ -98,7 +98,7 @@ body {
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--secondary-color);
@@ -119,6 +119,6 @@ body {
     color: var(--primary-color);
     text-align: center;
     font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
