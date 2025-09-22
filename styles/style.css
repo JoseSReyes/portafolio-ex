@@ -34,7 +34,7 @@ body {
 }
 
 .header__menu__link {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--third-color);
     /* margin: 0 10px;
     padding: 10px 15px;*/
@@ -52,17 +52,18 @@ body {
     align-items: center;
     padding: 6% 15%;
     justify-content: space-between;
+    /* gap: 82px; */
 }
 
 .presentation__content {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .presentation__content__title {
-    font-size: 36px;
+    font-size: 2rem;
     font-family: var(--font-krona-one);
 }
 
@@ -72,7 +73,7 @@ body {
 
 .presentation__content__text {
     font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .presentation__content__text a{
@@ -89,23 +90,23 @@ body {
 }
 .presentation__links__subtitle {
     font-family: var(--font-krona-one);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .presentation__links__link {
-    width: 378px;   
+    width: 50%;   
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
     font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--secondary-color);
     border: 2px solid var(--third-color);
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
 }
 
 .presentation__links__link:hover {
@@ -113,12 +114,34 @@ body {
     background-color: var(--hover-link-color);
 }
 
+.presentation__image {
+    width: 50%;
+}
+
 .footer {
     background-color: var(--third-color);
     padding: 24px;
     color: var(--primary-color);
     text-align: center;
-    font-family: var(--font-montserrat);
-    font-size: 24px;
+    font-family: var(--font-krona-one);
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+    }
+
+    .header__menu {
+        justify-content: center;
+    }
+    .presentation {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentation__content {
+        width: auto;
+    }
 }
